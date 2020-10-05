@@ -48,6 +48,10 @@ The analysis of the election show the following about the counties:
 - The county with the largest voter turnout was: 
     - Denver county with 82.8% of the vote and 306,055 votes tallied
     
+All results of the election for this audit are displayed in the following image: 
+
+![Election_text.PNG](Resources/Election.text.PNG)
+    
 ## Challenge Statement
 The methods used in aggregating this voting data proved to accurately display the voting data and makes for a great template to cover future elections. Here, we can also use this template to further slice the data. If we were able to know more about county information, such as county population, we could learn which counties had the highest amount of participation in proportion to the population. This could help determine where there may exist opportunities for higher voter turnout. To do this, we would take the county population data and also throw that into our county dictionary. From there, we would change the denominator used in our `county_vote_percentage` formula from `total_votes` to `county_population` to show what percent of the population came out to vote. We would rename this variable `county_vote_turnout` This adjustment is demonstrated below:
 
